@@ -11,3 +11,4 @@ sudo apt-get install -y docker-ce docker-ce-cli containerd.io
 # post install
 sudo groupadd docker
 sudo usermod -aG docker $USER
+sudo systemctl enable docker
